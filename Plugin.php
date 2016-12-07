@@ -1,4 +1,4 @@
-<?php namespace hambern\puzzle;
+<?php namespace Hambern\Puzzle;
 
 use System\Classes\PluginBase;
 

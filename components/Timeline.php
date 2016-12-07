@@ -1,4 +1,4 @@
-<?php namespace hambern\puzzle\components;
+<?php namespace Hambern\Puzzle\Components;
 
 use Cms\Classes\ComponentBase;
 use Lang;
