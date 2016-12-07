@@ -1,0 +1,6 @@
+plugin:
+    name: 'hambern.puzzle::lang.plugin.name'
+    description: 'hambern.puzzle::lang.plugin.description'
+    author: Hambern
+    icon: icon-puzzle-piece
+    homepage: 'http://hambergmedia.se'

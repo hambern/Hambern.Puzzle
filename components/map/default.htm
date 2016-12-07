@@ -1,0 +1,11 @@
+{% set prop = __SELF__.properties %}
+<iframe class="{{ prop.class }}"
+  style="{{ not prop.touch ? 'pointer-events: none' }}"
+  width="{{ prop.width }}"
+  height="{{ prop.height }}"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key={{ prop.key }}
+    &q={{ prop.address }}
+    &zoom={{ prop.zoom }}
+    &maptype={{ prop.maptype }}" allowfullscreen>
+</iframe>

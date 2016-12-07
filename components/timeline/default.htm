@@ -1,0 +1,14 @@
+{% set prop = __SELF__.properties %}
+<a class="twitter-timeline {{ prop.class }}"
+	data-chrome="
+		{{ not prop.background ? 'transparent' }}
+		{{ not prop.header ? 'noheader' }}
+		{{ not prop.footer ? 'nofooter' }}
+		{{ not prop.scrollbar ? 'noscrollbar' }}"
+	data-lang="{{ prop.lang }}"
+	data-theme="{{ prop.theme }}"
+	data-width="{{ prop.width }}"
+	data-height="{{ prop.height }}"
+	data-tweet-limit="{{ prop.limit }}"
+	href="https://twitter.com/{{ prop.profile }}">
+</a>
